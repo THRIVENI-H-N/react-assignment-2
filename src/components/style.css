@@ -1,0 +1,60 @@
+body{
+    width:100vw;
+    height:100vh;
+    background-image: linear-gradient(
+      aqua,
+      pink,
+      gray
+    );
+  }
+  
+  
+  
+  
+  input[type=text]{
+  height:30px;
+  width:200px;
+  text-align: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: rgb(181, 244, 223);
+    font-size: 16px;
+  }
+  button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    border: 2px solid whitesmoke;
+  
+  
+  }
+  
+  label{
+    font-weight: bold;
+    font-size:20px;
+  }
+  #innerbox{
+  width:fit-content;
+   height: fit-content; 
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(247, 214, 219);
+    
+  }
+  
+  #outerbox{
+    width: 70%;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(149, 202, 184);
+     margin-left: 120px; 
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:12px;
+    
+  }
